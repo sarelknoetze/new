@@ -1,0 +1,152 @@
+body{
+    font-family: sans-serif, serif;
+    margin: 0;
+    background-image: url(./images/bacground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navBar{
+    vertical-align: middle;
+    height: 105px;
+    font-size: 20px;
+}
+
+.navBar a:hover{
+    font-size: 30px;
+}
+
+.navBar a:active{
+    color: red;
+}
+
+.imgLogo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.navBar a{
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    margin-top: 45px;
+    margin-right: 10%;
+    color: white;
+}
+
+.asideBar{
+    background-color: black;
+    width: 7%;
+    float: right;
+    margin-top: 12%;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    margin-left: 90%;
+}
+
+.asideBar a{
+    text-decoration: none;
+    color: white;
+}
+
+.heroSection{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    color: white;
+    background-color: rgba(171, 168, 168, 0.541);
+    width: 30%;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.specialiseAbout{
+    color: white;
+}
+
+.specialiseAbout{
+   width: 45%;
+   margin-left: 3%
+}
+
+form{
+    color: white;
+}
+
+.copyright{
+    background-color: rgb(171, 168, 168);
+    height: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+/* contact us page */
+.contactPart{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 2%;
+}
+
+.whtsappContact{
+    text-align: center;
+    width: 31%;
+}
+
+.emailContact{
+    text-align: center;
+    width: 31%;
+}
+
+.callContact{
+    text-align: center;
+    width: 31%;
+}
+
+.whatsapp{
+    background-color: green;
+    border: 1px solid white;
+    width: 40%;
+    color: white;
+}
+
+.email{
+    background-color: #0a0f1b;
+    border: 1px solid white;
+    width: 40%;
+    color: white;
+}
+
+.call{
+    background-color: blue;
+    border: 1px solid white;
+    width: 40%;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    float: left;
+    margin-left: 3%;
+    height: 30px;
+}
+
+form{
+    margin: 5%;
+    margin-left: 40%;
+}
+ 
+label, input{
+    margin-bottom: 3%;
+}
+
